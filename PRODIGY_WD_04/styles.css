@@ -1,0 +1,157 @@
+/* Reset some styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Section (Hero Section) */
+header {
+  background: linear-gradient(135deg, #4a90e2, #0033cc);
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+}
+
+.hero-text p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.profile-img {
+  width: 175px; /* Size of the image */
+  height: 230px; /* Height for the image */
+  border-radius: 10px; /* Slightly rounded corners */
+  object-fit: cover; /* Ensures the image covers the square area properly */
+  border: 5px solid #fff; /* Border around the image */
+  margin-left: 60px; /* Moves the image slightly to the right */
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #4a90e2;
+}
+
+/* Main content */
+main {
+  padding: 60px 20px;
+}
+
+/* Sections */
+.section-padding {
+  padding: 50px 20px;
+}
+
+h2 {
+  color: #4a90e2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-photo {
+  width: 40%;
+}
+
+.education, .professional-experience, .skills {
+  margin-bottom: 40px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.skill-card {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #4a90e2;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
